@@ -196,3 +196,34 @@ ul>li>p {
 .sec3elements p{
     text-align: center;
 }
+
+.sec4 {
+    background-color: #eae3d6;
+    height: 60vh;
+    width: 130vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    align-items: center;
+    gap:0;
+    margin-bottom: 0;
+}
+
+.wrap {
+    background-color: #eae3d6;
+    display: flex;
+    justify-content: center;
+    gap:0;
+}
+
+.sec4elements{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.sec4elements img{
+    height: 15vh;
+}
+
+.sec4elements p{
+    text-align: center;
+}
