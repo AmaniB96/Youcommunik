@@ -1,13 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+.ubuntu-sans {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
 body{
     margin: 0;
     padding: 0;}
 
 nav{
     background-color: #1a1a1d;
-    height: 10vh;
+    height: 11vh;
     width: 100%;
     color: white;
     font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.headerlogo {
+    height: 100%;
     display: flex;
     align-items: center;
 }
@@ -17,10 +34,23 @@ nav{
     margin-left: 10px;
 }
 
+.navigation {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 100%;}
 
 .navigation ul {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    gap:20px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: center;
+    align-items: center;
 }
 .navigation li::marker {
     content:none
@@ -28,4 +58,16 @@ nav{
 
 .navigation ul li img {   
     height: 5vh;
+}
+
+ul>li>p {
+         font-size: 9px;
+         font-family: ubuntu sans;
+         font-weight: 300;
+}
+
+.sec1{
+    width: 100%;
+    height: 33vh;
+    background-color: #334d5c;
 }
