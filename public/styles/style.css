@@ -237,8 +237,12 @@ section:last-of-type {
     padding-bottom: 0;
 }
 
+.footershape{
+    padding-top: 25px;
+}
+
 footer { 
-    height: 40vh;
+    height: 35vh;
     width: 100%;
     background-color: #393a3b;
     margin-top: 0;
@@ -251,6 +255,7 @@ footer {
     color: white;
     font-weight: 600;
     font-size: 25px;
+    margin-bottom: 15px;
 }
 
 .footerdiv2{
@@ -267,3 +272,14 @@ footer {
 .FooterImg{
     height: 10vh;
 }
+
+.footerdiv3{
+    display: flex;
+    justify-content: end;
+    color: white;
+    margin-right: 15px;}
+
+.footerDivImglast{
+    display: flex;
+    justify-content: end;
+    gap:30px;}
