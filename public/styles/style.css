@@ -47,7 +47,7 @@ nav{
     justify-content: space-evenly;
     height: 100%;
     gap:25px;
-    margin-right: 20px;
+    margin-right: 35px;
     margin-top: 0;
     margin-left: 0;
     margin-bottom: 0;
@@ -200,7 +200,7 @@ ul>li>p {
 
 .sec4 {
     background-color: #eae3d6;
-    height: 60vh;
+    height: 50vh;
     width: 130vh;
     display: flex;
     justify-content: space-evenly;
@@ -208,6 +208,8 @@ ul>li>p {
     align-items: center;
     gap:0;
     margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .wrap {
