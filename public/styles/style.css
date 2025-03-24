@@ -227,3 +227,10 @@ ul>li>p {
 .sec4elements p{
     text-align: center;
 }
+
+footer { 
+    height: 40vh;
+    width: 100%;
+    background-color: #393a3b;
+    
+}
