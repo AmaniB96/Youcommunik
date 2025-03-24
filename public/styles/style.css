@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;}
+
+nav{
+    background-color: #1a1a1d;
+    height: 10vh;
+    width: 100%;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.headerlogo img{
+    height:5vh;
+    margin-left: 10px;
+}
+
+
+.navigation ul {
+    display: flex;
+    flex-direction: column;
+}
+.navigation li::marker {
+    content:none
+}
+
+.navigation ul li img {   
+    height: 5vh;
+}
