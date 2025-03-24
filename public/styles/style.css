@@ -255,11 +255,12 @@ footer {
 
 .footerdiv2{
     display: flex;
-    justify-content: space-around;}
+    justify-content: space-evenly;
+    margin-left: 35px;}
 
 .footerDivImg{
     display: flex;
-    justify-content: flex-start;
+    justify-content: end;
     gap:30px
 }
 
