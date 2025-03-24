@@ -12,7 +12,8 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: ubuntu sans;}
+    font-family: ubuntu sans;
+    overflow-x:hidden;}
 
 nav{
     background-color: #1a1a1d;
@@ -213,8 +214,11 @@ ul>li>p {
     background-color: #eae3d6;
     display: flex;
     justify-content: center;
-    gap:0;
+    gap: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
+
 
 .sec4elements{
     margin-left: 45px;
@@ -228,9 +232,37 @@ ul>li>p {
     text-align: center;
 }
 
+section:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 footer { 
     height: 40vh;
     width: 100%;
     background-color: #393a3b;
-    
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.footerdiv1{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footerdiv2{
+    display: flex;
+    justify-content: space-around;}
+
+.footerDivImg{
+    display: flex;
+    justify-content: flex-start;
+    gap:30px
+}
+
+.FooterImg{
+    height: 10vh;
 }
