@@ -16,10 +16,10 @@ body{
 
 nav{
     background-color: #1a1a1d;
-    height: 11vh;
+    height: 22vh;
     width: 100%;
     color: white;
-    font-size: 13px;
+    font-size:26px;
     display: flex;
     align-items: center;
 }
@@ -31,7 +31,7 @@ nav{
 }
 
 .headerlogo img{
-    height:5vh;
+    height:8vh;
     margin-left: 10px;
 }
 
@@ -45,7 +45,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     height: 100%;
-    gap:20px;
+    gap:25px;
     margin-right: 20px;
     margin-top: 0;
     margin-left: 0;
@@ -58,17 +58,17 @@ nav{
 }
 
 .navigation ul li img {   
-    height: 5vh;
+    height: 10vh;
 }
 
 ul>li>p {
-         font-size: 9px;
+         font-size: 18px;
          font-weight: 300;
 }
 
 .sec1{
     width: 100%;
-    height: 33vh;
+    height: 40vh;
     background-color: #334d5c;
     display: flex;
 }
@@ -80,7 +80,11 @@ ul>li>p {
     width: 50vw;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
+}
+
+.imgpackage{
+    height: 63%;
 }
 
 .sec1Text{
@@ -95,17 +99,17 @@ ul>li>p {
 .divh2{
     display: flex;
     justify-content: flex-start;
-    width: 70%;
+    width: 90%;
 }
 
 .divp {
     display: flex;
     justify-content: flex-start;
-    width: 70%;
+    width: 90%;
 }
 
 .sec1Text h2{
-    font-size: 50px;
+    font-size: 70px;
     color: white;
     text-transform: capitalize;
     font-weight: 400;
@@ -114,9 +118,35 @@ ul>li>p {
 }
 
 .sec1Text p{
-    font-size: 25px;
+    font-size: 50px;
     color: white;
-    text-transform: capitalize;
     margin-top: 5px;
+}
 
+
+.sec2{
+    background-color: rgb(236, 203, 156);
+    height: 66vh;
+    width: 100%;
+}
+
+.sec2box{width: 100%;
+         height: 33%;
+         display: flex;
+         justify-content: center;
+         align-items: center;}
+
+.sec2h2 {width: 30vw;
+         height: 13vh;
+         background-color: #334d5c;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-top: 45px;}
+
+.sec2h2 h2{
+    text-transform: capitalize;
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
 }
