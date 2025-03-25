@@ -287,17 +287,29 @@ footer {
     justify-content: end;
     gap:30px;}
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     nav {
         height: auto;
         flex-direction: column;
     }
 
+    .headerlogo img{
+        height:4vh;
+    }
+
     .navigation ul {
-        flex-direction: column;
         gap: 10px;
         padding: 10px;
-        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .navigation ul li img{
+        height: 5vh;
+    }
+
+    ul>li>p {
+        font-size: 10px;
+        font-weight: 300;
     }
 
     .sec1 {
