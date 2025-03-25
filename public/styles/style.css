@@ -373,3 +373,21 @@ footer {
         gap: 15px;
     }
 }
+
+@media (max-width: 480px) {
+    .sec1Text h2 {
+        font-size: 32px;
+    }
+    
+    .sec2h2 h2 {
+        font-size: 32px;
+    }
+    
+    .navigation ul li img {
+        height: 8vh;
+    }
+    
+    .FooterImg {
+        height: 8vh;
+    }
+}
